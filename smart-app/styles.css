@@ -28,7 +28,7 @@ header {
 
 .nav-buttons li {
   padding: 0px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: #ffffff;
   font-size: 14px;
   margin: 59px 0;
@@ -54,27 +54,24 @@ header {
 }
 
 .header-logo {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  width: 280px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 397px;
   height: 195px;
   background-color: #b86365;
-  border-radius: 0 0 20px 20px;
+  border-radius: 0 0 24px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  color: #FFF;
 }
 
-.header-logo p:first-child {
+.header-logo :first-child {
   font-size: 42px;
-}
-
-/* .header-logo p:first-child {
-  /* text-transform: uppercase; */
-  /* font-size: 42px; */
-
-
-/* .header-logo p:last-child {
   text-transform: uppercase;
-  font-size: 42px;
-} */
+  padding: 50px 20px 22px 20px;
+}
+
+.header-logo :last-child {
+  font-size: 14px;
+  padding-bottom: 62px;
+}
