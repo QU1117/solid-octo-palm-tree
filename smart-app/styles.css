@@ -1,0 +1,47 @@
+body {
+  background-color: #1f2531;
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.top-navigation {
+  width: 100%;
+  height: 118px;
+  border-bottom: 1px solid #666;
+}
+
+.nav-buttons {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.nav-buttons li {
+  padding: 0px;
+  font-family: "Georgia Regular", serif;
+  color: #ffffff;
+  font-size: 14px;
+  margin: 59px 0;
+}
+
+.nav-buttons li:not(:last-child)::after {
+  display: inline-block;
+  margin: 0 20px;
+  content: "|";
+  color: #666;
+}
+
+.nav-buttons li a {
+  text-decoration: none;
+  padding: 59px 0;
+}
+
+.style-demo-link {
+  border-top: 4px solid #b86365;
+}
