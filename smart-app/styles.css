@@ -41,6 +41,11 @@ body {
 .nav-buttons li a {
   text-decoration: none;
   padding-top: 59px;
+  color: #666;
+}
+
+.nav-buttons li a:hover {
+  color: #FFF;
 }
 
 .style-demo-link {
