@@ -62,7 +62,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #FFF;
+  color: #fff;
 }
 
 .header-logo :first-child {
@@ -74,4 +74,59 @@ header {
 .header-logo :last-child {
   font-size: 14px;
   padding-bottom: 62px;
+  font-weight: 100;
+}
+
+.featured {
+  display: flex;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.featured-text {
+  margin: 112px 0 0 0;
+}
+
+.featured-text h1 {
+  font-size: 56px;
+  font-weight: 100;
+  color: #fff;
+  margin: 0 0 20px;
+}
+
+.featured-text p {
+  color: #fff;
+  margin: 0;
+}
+
+.featured-text p:first-of-type {
+  line-height: 25px;
+}
+
+.featured-text p:last-of-type {
+  margin-top: 4px;
+}
+
+.featured-text p a {
+  text-decoration: none;
+  color: #b86365;
+}
+
+.featured-text figure {
+  margin: 24px 0 0;
+}
+
+.featured-devices figure {
+  margin: 0 0 0 40;
+}
+
+.featured-devices figure:first-of-type {
+  position: relative;
+  bottom: 62px;
+  left: 40px;
+}
+
+.featured-devices figure:last-of-type {
+  position: absolute;
+  top: 279px;
+  right: 508px;
 }
