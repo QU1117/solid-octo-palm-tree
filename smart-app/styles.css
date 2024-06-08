@@ -99,7 +99,7 @@ header {
 }
 
 .featured-text p:first-of-type {
-  line-height: 25px;
+  line-height: 1.6;
 }
 
 .featured-text p:last-of-type {
@@ -112,7 +112,7 @@ header {
 }
 
 .featured-text figure {
-  margin: 24px 0 0;
+  margin: 23px 0 0;
 }
 
 .featured-devices figure {
