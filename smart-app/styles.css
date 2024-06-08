@@ -138,7 +138,6 @@ header {
   height: 16px;
   width: 375px;
   background-color: #1f2531;
-  /* background: rgba(0, 0, 0, 0); */
   border-radius: 50%;
   filter: drop-shadow(0px 17px 2px #08090c);
 }
