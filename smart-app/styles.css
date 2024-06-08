@@ -121,7 +121,7 @@ header {
 
 .featured-devices figure:first-of-type {
   position: relative;
-  bottom: 62px;
+  bottom: 78px;
   left: 40px;
 }
 
@@ -129,4 +129,16 @@ header {
   position: absolute;
   top: 279px;
   right: 508px;
+}
+
+.featured-devices-oval-shadow {
+  position: relative;
+  top: 343px;
+  right: -12px;
+  height: 16px;
+  width: 375px;
+  background-color: #1f2531;
+  /* background: rgba(0, 0, 0, 0); */
+  border-radius: 50%;
+  filter: drop-shadow(0px 17px 2px #08090c);
 }
