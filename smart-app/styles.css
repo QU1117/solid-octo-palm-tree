@@ -152,6 +152,7 @@ header {
   height: 675px;
   margin: 0;
   border-radius: 23px;
+  display: flex;
 }
 
 .top-features {
@@ -207,4 +208,57 @@ header {
 
 .feature-4 {
   grid-area: feature-4;
+}
+
+.benefits {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 5px;
+  max-width: 480px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  align-content: flex-start;
+  margin: 50px 0 0 53px;
+}
+
+.benefit {
+  display: flex;
+  flex-direction: column;
+  max-width: 198px;
+  max-height: 90px;
+  margin: 0px 32px 15px 0px;
+}
+
+.benefit header div {
+  height: 32px;
+  width: 32px;
+  background-color: #333333;
+  color: #fff;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+}
+
+.benefit header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.benefit header h4 {
+  font-weight: 100;
+  font-style: oblique;
+  font-size: smaller;
+  color: #666;
+  margin: 0 0 0 10px;
+}
+
+.benefit p {
+  font-weight: 100;
+  color: #989898;
+  font-size: 13px;
+  margin: 0;
+  font-style: normal;
 }
