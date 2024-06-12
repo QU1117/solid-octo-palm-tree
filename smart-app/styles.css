@@ -270,3 +270,84 @@ header {
   font-style: normal;
 }
 
+.subscribe {
+  border-top: 1px;
+  grid-area: subscribe;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+}
+
+.subscribe div {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  margin: 0 0px 5px 0;
+}
+
+.subscribe div p {
+  margin: 5px 0 0 0;
+}
+
+.subscribe label {
+  text-transform: uppercase;
+  font-style: oblique;
+  font-size: 35px;
+  letter-spacing: 1px;
+  margin: 3px 0 0 6px;
+}
+
+.subscribe p {
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.subscribe form {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  padding: 3px 80px 0 0;
+}
+
+.subscribe input {
+  background: linear-gradient(to bottom, #eeeeee 0%, #cccccc 100%);
+  height: 27px;
+  width: 114px;
+  border-radius: 6px;
+  margin: 0 17px 0 20px;
+  border: 1px solid #d1d1d1;
+  flex-grow: 1;
+}
+
+.subscribe input:placeholder-shown {
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 100;
+}
+
+.subscribe button {
+  background: linear-gradient(to bottom, #eeeeee 0%, #cccccc 100%);
+  border-radius: 6px;
+  color: #b86365;
+  width: 100px;
+  height: 31px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #d1d1d1;
+}
+
+.subscribe button:active {
+  /* background-color: #3e8e41; */
+  box-shadow: 1px 1px #666;
+  transform: translateY(2px);
+}
