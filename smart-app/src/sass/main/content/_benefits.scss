@@ -1,0 +1,10 @@
+.benefits {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 5px;
+  max-width: 480px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  align-content: flex-start;
+  margin: 50px 0 0 10px;
+  grid-area: benefits;
+}

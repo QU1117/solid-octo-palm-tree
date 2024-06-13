@@ -1,0 +1,42 @@
+.benefit {
+  display: flex;
+  flex-direction: column;
+  max-width: 198px;
+  max-height: 90px;
+  margin: 0px 32px 15px 0px;
+
+  header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+    div {
+      height: 32px;
+      width: 32px;
+      background-color: #333333;
+      color: #fff;
+      font-size: 11px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 100;
+      letter-spacing: 0.5px;
+    }
+
+    h4 {
+      font-weight: 100;
+      font-style: oblique;
+      font-size: smaller;
+      color: #666;
+      margin: 0 0 0 10px;
+    }
+  }
+
+  p {
+    font-weight: 100;
+    color: #989898;
+    font-size: 13px;
+    margin: 0;
+    font-style: normal;
+  }
+}

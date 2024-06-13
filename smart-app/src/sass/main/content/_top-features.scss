@@ -1,0 +1,30 @@
+.top-features {
+  padding: 42px 0 0 22px;
+  max-width: 480px;
+  display: grid;
+  grid-template-columns: 180.4px 180.4px;
+  grid-template-rows: 180.4px 180.4px;
+  grid-template-areas:
+    "feature-1 feature-2"
+    "feature-3 feature-4";
+  column-gap: 55px;
+  row-gap: 54px;
+  color: #fff;
+  grid-area: top-features;
+}
+
+.feature-1 {
+  grid-area: feature-1;
+}
+
+.feature-2 {
+  grid-area: feature-2;
+}
+
+.feature-3 {
+  grid-area: feature-3;
+}
+
+.feature-4 {
+  grid-area: feature-4;
+}

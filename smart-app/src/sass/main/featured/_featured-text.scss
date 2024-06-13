@@ -1,0 +1,32 @@
+.featured-text {
+  margin: 112px 0 0 0;
+
+  h1 {
+    font-size: 56px;
+    font-weight: 100;
+    color: #fff;
+    margin: 0 0 20px;
+  }
+
+  p {
+    color: #fff;
+    margin: 0;
+
+    &:first-of-type {
+      line-height: 1.6;
+    }
+
+    &:last-of-type {
+      margin-top: 4px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #b86365;
+    }
+  }
+
+  figure {
+    margin: 23px 0 0;
+  }
+}

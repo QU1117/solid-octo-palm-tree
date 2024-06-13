@@ -1,0 +1,12 @@
+.content {
+  background-color: #fff;
+  height: 675px;
+  margin: 0;
+  border-radius: 23px;
+  display: grid;
+  grid-template-columns: 480px 480px;
+  grid-template-rows: 525px 110px;
+  grid-template-areas:
+    "top-features benefits"
+    "subscribe subscribe";
+}

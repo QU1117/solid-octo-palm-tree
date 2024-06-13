@@ -1,0 +1,36 @@
+.nav-buttons {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 0 17px 0 0;
+  padding: 0;
+  height: 100%;
+
+  li {
+    padding: 0px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #ffffff;
+    font-size: 14px;
+    margin: 50px 0;
+    text-transform: uppercase;
+
+    &:not(:last-child)::after {
+      display: inline-block;
+      margin: 0 20px;
+      content: "|";
+      color: #666;
+    }
+
+    a {
+      text-decoration: none;
+      padding-top: 46px;
+      color: #666;
+
+      &:hover {
+        color: #fff;
+        border-top: 4px solid #b86365;
+      }
+    }
+  }
+}

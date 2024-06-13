@@ -1,0 +1,26 @@
+$circleSize: 180px;
+
+.feature-circle {
+  background-color: #b86365;
+  width: $circleSize;
+  height: $circleSize;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 16px solid #e2e2e2;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  header {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 7px 0;
+  }
+
+  p {
+    padding: 0 20px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,23 @@
+.header-logo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 397px;
+  height: 195px;
+  background-color: #b86365;
+  border-radius: 0 0 24px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+
+  :first-child {
+    font-size: 42px;
+    text-transform: uppercase;
+    padding: 50px 20px 22px 20px;
+  }
+
+  :last-child {
+    font-size: 14px;
+    padding-bottom: 62px;
+    font-weight: 100;
+  }
+}
