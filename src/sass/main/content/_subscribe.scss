@@ -1,6 +1,7 @@
 .subscribe {
-  background-image: url(/smart-app/assets/gradient.png),
-    url(/smart-app/assets/gradient.png);
+  $gradient-url: '/assets/gradient.png';
+  background-image: url($gradient-url),
+    url($gradient-url);
   background-repeat: no-repeat no-repeat;
   background-position: top, bottom;
   grid-area: subscribe;
