@@ -6,7 +6,7 @@
 
     &:first-of-type {
       position: relative;
-      bottom: 78px;
+      bottom: 84px;
       left: 40px;
     }
 
@@ -16,15 +16,17 @@
       right: 197px;
     }
   }
-}
 
-.featured-devices-oval-shadow {
-  position: relative;
-  top: 343px;
-  right: -12px;
-  height: 16px;
-  width: 375px;
-  background-color: #1f2531;
-  border-radius: 50%;
-  filter: drop-shadow(0px 17px 2px #08090c);
+  &::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: 341px;
+    right: -7px;
+    height: 18px;
+    width: 380px;
+    background-color: #1f2531;
+    border-radius: 50%;
+    filter: drop-shadow(0px 17px 2px #08090c);
+  }
 }
