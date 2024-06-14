@@ -1,10 +1,9 @@
 .subscribe {
-  border-top: 1px;
+  background-image: url(/smart-app/assets/gradient.png),
+    url(/smart-app/assets/gradient.png);
+  background-repeat: no-repeat no-repeat;
+  background-position: top, bottom;
   grid-area: subscribe;
-  border-top: 1px solid #d4d4d4;
-  border-bottom: 1px solid #d4d4d4;
-  border-left: 1px solid transparent;
-  border-right: 1px solid transparent;
   font-family: Georgia, "Times New Roman", Times, serif;
   display: flex;
 
