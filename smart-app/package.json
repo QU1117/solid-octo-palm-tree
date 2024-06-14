@@ -8,6 +8,6 @@
   "scripts": {
     "postwatch": "npx postcss src/styles.css --use autoprefixer -d build/ --watch",
     "autoprefixer": "npx postcss src/styles.css --use autoprefixer -d build/",
-    "sassw": "npx sass --watch src/sass/styles.scss src/styles.css"
+    "sassw": "npx sass --watch src/sass/styles.scss src/styles.css --no-source-map"
   }
 }
