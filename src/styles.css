@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: #1f2531;
   max-width: 960px;
@@ -315,4 +316,56 @@ header {
 .subscribe button:active {
   box-shadow: 1px 1px #666;
   transform: translateY(2px);
+}
+
+footer {
+  display: flex;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 45px;
+}
+footer section {
+  width: 220px;
+}
+footer section header {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin: 0 0 34px 0;
+}
+footer section article {
+  display: flex;
+  flex-direction: column;
+}
+footer section article p, footer section article header {
+  color: #989898;
+  font-size: 14px;
+  font-weight: 100;
+}
+footer section article header {
+  text-transform: capitalize;
+  flex-direction: column;
+  margin: 0 0 13px 0;
+}
+footer section article header span {
+  text-transform: none;
+  margin-top: 6px;
+  font-size: 11px;
+}
+footer section article p {
+  margin: 3px 0 3px 0;
+  font-size: 12px;
+  line-height: 19px;
+  padding-right: 20px;
+}
+footer section article a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #b86365;
+  align-self: flex-end;
+  padding-right: 6px;
+  text-transform: capitalize;
+}
+footer section article a::after {
+  content: " »";
 }
