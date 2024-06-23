@@ -36,7 +36,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      filename: "public/index.html",
+      filename: "index.html",
       template: "./template.html",
     }),
   ].concat(
