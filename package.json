@@ -1,13 +1,27 @@
 {
   "dependencies": {
-    "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.38",
-    "postcss-cli": "^11.0.0",
-    "sass": "^1.77.5"
+    "bootstrap-icons": "^1.11.3"
   },
   "scripts": {
-    "postwatch": "npx postcss src/styles.css --use autoprefixer -d build/ --watch",
-    "autoprefixer": "npx postcss src/styles.css --use autoprefixer -d build/",
-    "sassw": "npx sass --watch src/sass/styles.scss src/styles.css --no-source-map"
+    "build": "webpack --config webpack.dev.js --define-process-env-node-env development",
+    "dev": "webpack serve --config webpack.dev.js --define-process-env-node-env development",
+    "prod": "webpack --config webpack.prod.js --define-process-env-node-env production"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "css-loader": "^7.1.2",
+    "html-loader": "^5.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^11.0.0",
+    "postcss-loader": "^8.1.1",
+    "sass": "^1.77.6",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4",
+    "webpack-merge": "^5.10.0"
   }
 }
