@@ -1,1 +1,1 @@
-Простой статичный макет, без адаптивности, на HTML5, SASS и Autoprefixer.
+Простой статичный макет, без адаптивности, с использованием HTML5, SASS, PostCSS (Autoprefixer), Webpack.
