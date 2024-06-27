@@ -1,0 +1,13 @@
+.copyright {
+  color: #989898;
+  font-size: 14px;
+  margin: 1.1rem 0 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+
+  span {
+    &:first-child {
+      text-transform: capitalize;
+    }
+  }
+}
